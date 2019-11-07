@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center" >
+
+    <VideoView
+        android:id="@+id/videoDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_alignTop="@+id/listaDetalle"
+        android:layout_gravity="center"
+        android:layout_marginTop="-191dp" />
+
+    <WebView
+        android:id="@+id/listaDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"></WebView>
+
+    <TextView
+        android:id="@+id/bandaDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="43dp" />
+
+    <ImageView
+        android:id="@+id/imagenDetalle"
+        android:layout_width="217dp"
+        android:layout_height="4dp"
+        android:layout_above="@+id/videoDetalle"
+        android:layout_below="@+id/bandaDetalle"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginRight="194dp"
+        android:layout_marginBottom="196dp" />
+
+</RelativeLayout>
